@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment files (never commit .env!)
+.env
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+coverage/
+tmp/
+temp/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/tool settings (optional but good)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+*.gz
+*.zip
+*.tar
+
+# Ignore test report folders
+test-results/
+
+scripts/
+
