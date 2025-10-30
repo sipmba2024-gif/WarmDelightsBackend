@@ -36,11 +36,11 @@ app.use(helmet({
   contentSecurityPolicy: {
     directives: {
       defaultSrc: ["'self'"],
-      imgSrc: ["'self'", "data:", "blob:", "https://warmdelightsbackend.onrender.com", "https://warmdelights11.netlify.app"],
+      imgSrc: ["'self'", "data:", "blob:", "https://warmdelightsbackend-28os.onrender.com", "https://warmdelights11.netlify.app"],
       scriptSrc: ["'self'"],
       styleSrc: ["'self'", "'unsafe-inline'"],
       fontSrc: ["'self'"],
-      connectSrc: ["'self'", "https://warmdelightsbackend.onrender.com", "https://warmdelights11.netlify.app"],
+      connectSrc: ["'self'", "https://warmdelightsbackend-28os.onrender.com", "https://warmdelights11.netlify.app"],
     },
   },
   crossOriginResourcePolicy: { policy: "cross-origin" }
@@ -51,7 +51,7 @@ const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:5000',
   'https://warmdelights11.netlify.app',
-  'https://warmdelightsbackend.onrender.com'
+  'https://warmdelightsbackend-28os.onrender.com'
 ];
 
 app.use(cors({
